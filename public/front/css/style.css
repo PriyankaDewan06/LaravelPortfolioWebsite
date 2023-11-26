@@ -1,0 +1,237 @@
+
+body {
+    margin: 0!important;
+    padding: 0!important;
+    box-sizing: border-box;
+    /*background-color: red;*/
+}
+
+/*html {*/
+    /*scroll-behavior: smooth;*/
+/*}*/
+.contact-number-color {
+    /*color: royalblue!important;*/
+    /*color: #ff5b22!important;*/
+    color: red!important;
+}
+.section-one {
+    background-image: url("../img/bac.jpg");
+    background-size: cover;
+    height: 755px;
+    position: relative;
+}
+
+.section-one:before {
+    content: '';
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(215,230,152, .6);
+    position: absolute;
+}
+
+.circle {
+    height: 150px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+.circlex {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.section-four  {
+    background-color: gainsboro;
+    min-height: 500px;
+}
+
+.section-seven {
+    background-color: #ffffff;
+}
+
+.client-picture {
+    /*height: 100%;*/
+    /*width: 100%;*/
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.owl-carousel .owl-item img {
+    width: 100px!important;
+}
+.client-name-pos .row h6 {
+    text-align: center!important;
+    margin-top: 15px;
+}
+
+.section-nine {
+    /*background-color: #92dd05;*/
+    background-color: black;
+}
+
+.img {
+    height: 350px;
+    width: 300px;
+}
+.section-five {
+    background-color: rgba(125,185,265, .3) ;
+
+}
+
+#contact {
+    position: relative;
+    background-image: url("../img/img_bg_main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: 50%;
+    color: #fff;
+    background-color: #6d56c1;
+}
+#contact:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;right: 0;left: 0;
+    height: 100%;
+    background: linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
+}
+
+.placeholder-color::placeholder {
+    color: white;
+    opacity: 1;
+    background-color: transparent!important;
+}
+
+.contact-p p {
+    margin-bottom: 0px!important;
+}
+/*.recent-project-div {*/
+
+/*}*/
+
+.recent-project-div:hover {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 10px 3px rgba(42,34,84,0.98);
+    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 10px 3px rgba(42,34,84,0.52);
+    transition: 1s!important;
+    background-color: whitesmoke;
+}
+
+.cms-div-cursor {
+    cursor: pointer;
+}
+.stack-btn {
+    height: 32px;
+    box-shadow: 1px 0px 6px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 0px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 6px 0px rgba(0,0,0,0.75);
+}
+
+
+/*fonts*/
+
+.roboto {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.tangerine {
+    font-family: 'Tangerine', cursive;
+    font-size: 55px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.dancing-script {
+    font-family: 'Gurajada', serif;
+    font-size: 22px;
+}
+.cookie {
+    font-family: 'Cookie', cursive;
+    font-size: 55px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.sacramento {
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+}
+
+.aguafina-script {
+    font-family: 'Aguafina Script', cursive;
+    font-size: 30px;
+}
+/*font family ends*/
+
+.sider-img {
+    height: 490px;
+    width: 95%;
+}
+
+.mate-slide-img {
+    height: 450px;
+    width: 95%;
+}
+
+.arrow {
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+    position: fixed;
+    top: 90%;
+    left: 95%;
+}
+
+.owl-img {
+    height: 300px;
+}
+
+
+
+
+
+/*social media button test*/
+.nav-test {
+    /*height: 120px;*/
+    /*width: 95px;*/
+    /*background-color: orange;*/
+
+}
+.hire-me-icon {
+    height: 40px;
+    /*width: 20px;*/
+    border-radius: 50%;
+    /*margin-top: 1px;*/
+    margin-bottom: 2px;
+}
+.icon-box {
+    /*border: 1px solid #ffbd43;*/
+    padding-right: 5px;
+}
+
+.links nav {
+    color: black!important;
+    background-color: white!important;
+}
+
+/*projects pagination*/
+.links nav .flex {
+    /*display: none!important;*/
+    /*as used bootstrap pagination, it will not be necessary*/
+}
+.links nav .hidden p {
+    /*display: none!important;*/
+    /*as used bootstrap pagination, it will not be necessary*/
+}
+.links nav .hidden .relative {
+    /*margin-left: 30%;*/
+}
+.links nav {
+    padding-left: 40%!important;
+}
+.display-none {
+    display: none!important;
+}
